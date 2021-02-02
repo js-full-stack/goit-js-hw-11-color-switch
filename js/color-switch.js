@@ -28,7 +28,7 @@ function changesColorBody(event) {
 
     refs.body.style.backgroundColor = colors[randomaizer];
     console.log(randomaizer);
-  }, 1000);
+  }, 300);
   event.target.disabled = true;
 }
 
